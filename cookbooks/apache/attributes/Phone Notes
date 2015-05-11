@@ -1,0 +1,24 @@
+Phone Notes
+
+To find this in the webportal for the phones
+Go to the user
+Call control
+Directed Call Pickup with Barge-in.
+Here you can then disable Barge-in Warning Tone and set it to off.
+
+
+To find this in the webportal for the phones
+Go to the user
+Call control
+Call Processing Policies
+"Use user phone number for Calling Line Identity"
+
+
+In the Customer Service call center under Profile look for Supervisors. Once in that menu there are two tabs, Supervisors and Assign Agents. On the Assign Agents tab there is a drop down that selects which supervisor you want to look at. And in the Right box below are the agents assigned to the supervisor.
+
+Select Users
+Search for Julie
+Select Julie or Edit
+Select Messaging
+Greeting section 
+Change the number of rings - currently set to 3

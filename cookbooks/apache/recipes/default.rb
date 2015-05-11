@@ -9,11 +9,11 @@
 
 if node["platform"] == "ubuntu"
 	execute "apt-get update -y" do
-	end 
+	end
 end
 
 
-package "apache2"  do 
+package "apache2"  do
 	package_name node["apache"]["package"]
 end
 
@@ -42,7 +42,7 @@ node["apache"]["sites"].each do |sitename, data|
 			:port 			=> data["port"],
 			:domain 		=> data["domain"]
 			)
-		notifies :restart, "service[httpd]" 
+		notifies :restart, "service[httpd]"
 	end
 
 	template "/content/sites/#{sitename}/index.html" do
